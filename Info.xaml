@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KentekenApp.Info"
+             Title="Auto Informatie">
+    <ScrollView>
+        <StackLayout>
+
+        <Image x:Name="AutoFoto" Source="loading.png" HeightRequest="400" WidthRequest="400" />
+
+            <Label Text="Kentekennummer" />
+        <Entry x:Name="Kenteken"  IsReadOnly="True" />
+
+        <Label Text="Voertuigsoort" />
+        <Entry x:Name="Voertuigsoort"  IsReadOnly="True" />
+
+        <Label Text="Merk" />
+        <Entry x:Name="Merk"  IsReadOnly="True" />
+
+        <Label Text="Catalogus Prijs" />
+        <Entry x:Name="Prijs"  IsReadOnly="True" />
+
+            <Label Text="Handelsbenaming" />
+        <Entry x:Name="Handelsbenaming"  IsReadOnly="True" />
+
+        <Label Text="APK Verval Datum" />
+        <Entry x:Name="APK" IsReadOnly="True" />
+
+        <Label Text="Massa ledig voertuig" />
+        <Entry x:Name="massa"  IsReadOnly="True" />
+
+        <Label Text="Datum eerste toelating" />
+        <Entry x:Name="EersteToelating"  IsReadOnly="True" />
+
+        <Label Text="Datum eerste tenaamstelling in Nederland" />
+        <Entry x:Name="DatumNL"  IsReadOnly="True" />
+
+        <Label Text="Cilinder Inhoud" />
+        <Entry x:Name="Cilinder"  IsReadOnly="True" />
+
+        <Label Text="WAM Verzekerd" />
+        <Entry x:Name="Verzekering"  IsReadOnly="True" />
+ 
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>

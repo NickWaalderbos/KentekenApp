@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KentekenApp.MainPage"
+             NavigationPage.HasBackButton="False"
+             Title="Kenteken LookUp">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="Voer hier je kenteken nummer in"/>
+            <Entry x:Name="KentekenPlaat"
+                Placeholder="01-vbb-1"/>
+
+            <Button
+                Text="Verstuur"
+                Clicked="SendKenteken"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
